@@ -1,6 +1,6 @@
 # DA5401 A7: Multi-Class Model Selection using ROC and  Precision-Recall Curves
 
-**Name:** Tanmay Gawande
+**Name:** Tanmay Gawande  
 **Roll Number:** DA25M030
 
 ## Project Directory
@@ -63,3 +63,5 @@ Per-class threshold tuning was performed to maximize F1-scores, but it provided 
 The **`XGBClassifier`** is the recommended model for this task.
 
 While `KNeighborsClassifier` had a slightly higher `weighted_f1` score, the rank analysis proved `F1-score` was a misleading metric. The `XGBClassifier` was the undisputed **#1 ranked model** on the two most robust and important metrics: **`mAP` (0.951)** and **`ROC-AUC` (0.990)**. This demonstrates it has the most superior, stable, and well-calibrated performance across all possible decision thresholds.
+
+---
